@@ -390,4 +390,19 @@ public class CurtainRules {
             categories = {CREATIVE, SURVIVAL, FEATURE}
     )
     public static boolean toughWitherRose = false;
+
+    @Rule(
+            categories = {FEATURE}
+    )
+    public static boolean shulkerSpawningInEndCities = false;
+
+    @Rule(
+            categories = {FEATURE}
+    )
+    public static boolean removeBreakingCooldown = false;
+
+    @Rule(
+            categories = FEATURE
+    )
+    public static boolean renewableDeepslate = false;
 }

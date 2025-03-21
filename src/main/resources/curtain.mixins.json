@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "curtain.refmap.json",
   "mixins": [
+    "ChunkGenerator_customMobSpawnsMixin",
     "ClientConnectionMixin",
     "DirectionMixin",
     "EntityMixin",
@@ -51,13 +52,16 @@
     "rules.super_lead.MobMixin",
     "rules.turtle_egg_trampled_disabled.RemoveBlockGoalMixin",
     "rules.turtle_egg_trampled_disabled.TurtleEggBlockMixin",
+    "rules.wither_rose_block.WitherRoseBlockMixin",
     "rules.xp_from_explosions.ExplosionMixin",
     "rules.xp_no_cooldown.ExperienceOrbMixin",
     "rules.xp_no_cooldown.PlayerMixin",
-    "rules.wither_rose_block.WitherRoseBlockMixin"
+    "rules.renewable_deepslate.LiquidBlock_renewableDeepslateMixin",
+    "rules.renewable_deepslate.LavaFluid_renewableDeepslateMixin"
   ],
   "client": [
-    "rules.creative_no_clip.client.LevelRendererMixin"
+    "rules.creative_no_clip.client.LevelRendererMixin",
+    "rules.remove_breaking_cooldown.MixinClientPlayerInteractionManager"
   ],
   "injectors": {
     "defaultRequire": 1

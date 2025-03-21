@@ -165,5 +165,14 @@
   "curtain.rules.better_sign_editing.desc": "允许使用名称中包含“笔”的羽毛编辑告示牌",
 
   "curtain.rules.tough_wither_rose.name": "坚韧玫瑰",
-  "curtain.rules.tough_wither_rose.desc": "让凋零玫瑰在任意方块上放置"
+  "curtain.rules.tough_wither_rose.desc": "让凋零玫瑰在任意方块上放置",
+
+  "curtain.rules.shulker_spawning_in_end_cities.name": "潜影贝重生",
+  "curtain.rules.shulker_spawning_in_end_cities.desc": "潜影贝将会在末地城中重生",
+
+  "curtain.rules.remove_breaking_cooldown.name": "移除挖掘冷却",
+  "curtain.rules.remove_breaking_cooldown.desc": "移除在非秒破方块后的挖掘冷却（默认是 5gt），该功能在开启 强制添加破坏冷却 时不会生效",
+
+  "curtain.rules.renewable_deepslate.name": "可再生深板岩",
+  "curtain.rules.renewable_deepslate.desc": "熔岩和水在 Y0 以下生成深板岩和鹅卵石深板岩"
 }

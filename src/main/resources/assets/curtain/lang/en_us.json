@@ -165,5 +165,14 @@
   "curtain.rules.better_sign_editing.desc": "Possible to use feather editing sign with \"pen\" in the name",
 
   "curtain.rules.tough_wither_rose.name": "Resilient Rose",
-  "curtain.rules.tough_wither_rose.desc": "Place wither roses on any block"
+  "curtain.rules.tough_wither_rose.desc": "Place wither roses on any block",
+
+  "curtain.rules.shulker_spawning_in_end_cities.name": "Shulker Spawning",
+  "curtain.rules.shulker_spawning_in_end_cities.desc": "Shulker Will Spawning In End Cities",
+
+  "curtain.rules.remove_breaking_cooldown.name": "Remove Breaking Cooldown",
+  "curtain.rules.remove_breaking_cooldown.desc": "Remove mining cooldown after non second block breaking (default is 5gt), this feature will not take effect when forcing the addition of destruction cooldown is enabled",
+
+  "curtain.rules.renewable_deepslate.name": "Renewable Deepslate",
+  "curtain.rules.renewable_deepslate.desc": "Lava and water generate deepslate and cobbled deepslate instead below Y0"
 }
